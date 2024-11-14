@@ -1,13 +1,17 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Sixtyfour+Convergence&family=Updock&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: rgb(240, 240, 240);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+video{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position:fixed;
+  z-index: -20;
 }
